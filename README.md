@@ -2,7 +2,7 @@
 
 A modern, full-featured feedback application built with Next.js, React, and Supabase. Collect, manage, and analyze user feedback efficiently.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/easyweb/v0-product-feedback-app)
+[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/easyweb/v0-feedback-hub)
 [![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/EGRSkHH0hoJ)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-%233178C6?logo=typescript)](https://www.typescriptlang.org/)
