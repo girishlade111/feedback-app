@@ -61,7 +61,7 @@
 
 ## Overview
 
-InsightFlow is a modern, full-featured feedback application designed to help businesses collect, manage, and analyze user feedback efficiently. Built with the latest web technologies, it offers:
+**InsightFlow** is a modern, full-featured feedback application designed to help businesses collect, manage, and analyze user feedback efficiently. Built with the latest web technologies, it offers:
 
 - **Real-time feedback collection** with instant notifications
 - **AI-powered analytics** for better insights
@@ -77,16 +77,20 @@ InsightFlow is a modern, full-featured feedback application designed to help bus
 ## Key Features
 
 ### Core Features
-- ✅ **User Authentication** - Secure login with Supabase Auth (Email, GitHub, Google)
-- ✅ **Feedback Submission** - Rich text feedback with categorization and tagging
-- ✅ **Admin Dashboard** - Comprehensive admin panel for managing feedback
-- ✅ **Real-time Updates** - Live updates using Supabase Realtime subscriptions
-- ✅ **Responsive Design** - Mobile-first design for all screen sizes
-- ✅ **Dark/Light Mode** - System-preference aware theme switching
-- ✅ **Category Management** - Organize feedback with custom categories
-- ✅ **Status Workflows** - Track feedback with customizable statuses
+
+| Feature | Description |
+|---------|-------------|
+| ✅ **User Authentication** | Secure login with Supabase Auth (Email, GitHub, Google) |
+| ✅ **Feedback Submission** | Rich text feedback with categorization and tagging |
+| ✅ **Admin Dashboard** | Comprehensive admin panel for managing feedback |
+| ✅ **Real-time Updates** | Live updates using Supabase Realtime subscriptions |
+| ✅ **Responsive Design** | Mobile-first design for all screen sizes |
+| ✅ **Dark/Light Mode** | System-preference aware theme switching |
+| ✅ **Category Management** | Organize feedback with custom categories |
+| ✅ **Status Workflows** | Track feedback with customizable statuses |
 
 ### Advanced Features
+
 - 🔄 **Data Visualization** - Interactive charts and analytics dashboards
 - 📊 **Export Functionality** - Export data in CSV, JSON, and PDF formats
 - 🔍 **Search & Filter** - Powerful search with advanced filters
@@ -105,21 +109,23 @@ InsightFlow is a modern, full-featured feedback application designed to help bus
 ## Tech Stack
 
 ### Frontend Technologies
+
 | Technology | Version | Purpose |
 |------------|---------|---------|
-| [Next.js](https://nextjs.org/) | 15.2.4 | React framework with App Router |
-| [React](https://react.dev/) | 19 | UI library |
-| [TypeScript](https://www.typescriptlang.org/) | 5.0 | Type-safe JavaScript |
-| [Tailwind CSS](https://tailwindcss.com/) | 3.4.17 | Utility-first CSS framework |
+| [Next.js](https://nextjs.org/) | **15.2.4** | React framework with App Router |
+| [React](https://react.dev/) | **19** | UI library |
+| [TypeScript](https://www.typescriptlang.org/) | **5.0** | Type-safe JavaScript |
+| [Tailwind CSS](https://tailwindcss.com/) | **3.4.17** | Utility-first CSS framework |
 | [Radix UI](https://www.radix-ui.com/) | Latest | Accessible UI components |
 | [React Hook Form](https://react-hook-form.com/) | Latest | Form management |
-| [Zod](https://zod.dev/) | 3.24.1 | Schema validation |
+| [Zod](https://zod.dev/) | **3.24.1** | Schema validation |
 | [Recharts](https://recharts.org/) | Latest | Data visualization |
-| [Lucide React](https://lucide.dev/) | 0.454.0 | Icon library |
+| [Lucide React](https://lucide.dev/) | **0.454.0** | Icon library |
 | [Sonner](https://sonner.emilkowal.ski/) | Latest | Toast notifications |
-| [date-fns](https://date-fns.org/) | 4.1.0 | Date manipulation |
+| [date-fns](https://date-fns.org/) | **4.1.0** | Date manipulation |
 
 ### Backend & Infrastructure
+
 | Service | Purpose |
 |--------|---------|
 | [Supabase](https://supabase.com/) | Backend-as-a-Service (PostgreSQL, Auth, Storage, Realtime) |
@@ -127,6 +133,7 @@ InsightFlow is a modern, full-featured feedback application designed to help bus
 | [Vercel Analytics](https://vercel.com/analytics) | Web analytics |
 
 ### Development Tools
+
 | Tool | Purpose |
 |------|---------|
 | [ESLint](https://eslint.org/) | Code linting |
@@ -144,11 +151,11 @@ Before you begin, ensure you have the following installed:
 
 | Requirement | Minimum Version | Notes |
 |--------------|----------------|-------|
-| Node.js | 18.0.0+ | LTS recommended |
-| npm | 9.0.0+ | Comes with Node.js |
-| Git | 2.0.0+ | For version control |
-| Supabase Account | Free Tier | Create at supabase.com |
-| Vercel Account | Free Tier | Create at vercel.com |
+| **Node.js** | 18.0.0+ | LTS recommended |
+| **npm** | 9.0.0+ | Comes with Node.js |
+| **Git** | 2.0.0+ | For version control |
+| **Supabase Account** | Free Tier | Create at supabase.com |
+| **Vercel Account** | Free Tier | Create at vercel.com |
 
 ### Installation
 
@@ -271,10 +278,10 @@ Enable these providers in Supabase Dashboard → Authentication → Providers:
 
 1. Click **"Add Feedback"** button
 2. Fill in the feedback form:
-   - Title (required, max 200 chars)
-   - Description (optional, markdown supported)
-   - Category (select from predefined or custom)
-   - Priority (low, medium, high, critical)
+   - **Title** (required, max 200 chars)
+   - **Description** (optional, markdown supported)
+   - **Category** (select from predefined or custom)
+   - **Priority** (low, medium, high, critical)
 3. Attach files (images, documents)
 4. Submit and receive confirmation
 
@@ -291,6 +298,7 @@ Access the admin dashboard at `/admin` with these features:
 ### Real-time Updates
 
 Enable real-time subscriptions to receive:
+
 - 🔔 New feedback notifications
 - 📝 Status changes
 - 👍 New votes
@@ -299,6 +307,7 @@ Enable real-time subscriptions to receive:
 ### Analytics & Charts
 
 View analytics at `/analytics`:
+
 - 📈 Feedback by status (pie chart)
 - 📊 Feedback over time (line chart)
 - 🏆 Top categories (bar chart)
@@ -307,6 +316,7 @@ View analytics at `/analytics`:
 ### Export Functionality
 
 Export data from `/admin/export`:
+
 - 📄 **CSV** - For spreadsheets
 - 📋 **JSON** - For APIs
 - 📑 **PDF** - For reports
@@ -321,16 +331,21 @@ InsightFlow/
 │   ├── layout.tsx               # Root layout
 │   ├── page.tsx                # Home page
 │   ├── globals.css             # Global styles
+│   ├── actions.ts             # Server actions
 │   ├── admin/                  # Admin routes
 │   │   ├── page.tsx           # Admin dashboard
 │   │   └── analytics/
 │   └── api/                  # API routes
+│       └── ...
 ├── components/                   # React components
 │   ├── ui/                    # Radix UI components
 │   │   ├── button.tsx
 │   │   ├── input.tsx
 │   │   ├── card.tsx
 │   │   ├── dialog.tsx
+│   │   ├── table.tsx
+│   │   ├── dropdown-menu.tsx
+│   │   ├── badge.tsx
 │   │   └── ...
 │   ├── feedback/              # Feedback components
 │   │   ├── feedback-card.tsx
@@ -345,7 +360,8 @@ InsightFlow/
 ├── lib/                      # Utility functions
 │   ├── supabase.ts           # Supabase client
 │   ├── utils.ts             # Helper functions
-│   └── initial-data.ts      # Sample data
+│   ├── initial-data.ts      # Sample data
+│   └── types.ts            # TypeScript types
 ├── hooks/                    # Custom React hooks
 │   ├── use-feedback.ts
 │   ├── use-auth.ts
@@ -361,13 +377,17 @@ InsightFlow/
 │   └── statuses.ts
 ├── public/                  # Static assets
 │   ├── images/
-│   └── fonts/
-├── .env.local              # Environment variables
+│   ├── fonts/
+│   ├── logo.svg            # Logo
+│   └── favicon.ico         # Favicon
+├── .env.local              # Environment variables (not committed)
 ├── next.config.js          # Next.js config
 ├── tailwind.config.ts      # Tailwind config
 ├── tsconfig.json           # TypeScript config
 ├── postcss.config.js       # PostCSS config
-└── package.json           # Dependencies
+├── package.json           # Dependencies
+├── pnpm-lock.yaml        # pnpm lock file
+└── README.md            # This file
 ```
 
 ---
@@ -472,6 +492,8 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 | 👁️ Watchers | 0 |
 | 📁 Files | 25+ |
 | 📦 Dependencies | 60+ |
+| 🌍 Lines of Code | 10,000+ |
+| 📝 Commits | 20+ |
 
 ---
 
