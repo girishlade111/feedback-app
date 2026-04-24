@@ -1,5 +1,6 @@
 "use client"
 
+import Link from "next/link"
 import { Instagram, Linkedin, Github, Code, Globe, Mail } from "lucide-react"
 
 const socialLinks = [
@@ -41,6 +42,14 @@ const socialLinks = [
   },
 ]
 
+const footerLinks = [
+  { name: "Terms of Service", href: "/terms" },
+  { name: "Privacy Policy", href: "/privacy" },
+  { name: "Cookie Policy", href: "/cookies" },
+  { name: "Contact", href: "/contact" },
+  { name: "Documentation", href: "/docs" },
+]
+
 export function SocialFooter() {
   return (
     <footer className="w-full border-t bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
@@ -79,6 +88,18 @@ export function SocialFooter() {
               LadeStack
             </a>
           </div>
+        </div>
+        
+        <div className="mt-4 pt-4 border-t flex flex-wrap justify-center gap-4 text-sm">
+          {footerLinks.map((link) => (
+            <Link
+              key={link.href}
+              href={link.href}
+              className="text-muted-foreground hover:text-primary transition-colors"
+            >
+              {link.name}
+            </Link>
+          ))}
         </div>
       </div>
     </footer>
