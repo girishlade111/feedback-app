@@ -13,8 +13,10 @@ const geistSans = GeistSans({ subsets: ["latin"] })
 const siteConfig = {
   name: "InsightFlow",
   description: "AI-Powered Feedback Intelligence Platform - Collect, manage, and analyze user feedback efficiently with real-time updates, advanced analytics, and modern responsive design.",
+  shortDescription: "AI-powered feedback management platform. Collect, analyze, and act on customer feedback with real-time insights.",
   url: "https://insightflow.vercel.app",
   ogImage: "/og-image.png",
+  logo: "/logo.svg",
   twitter: "@girishlade111",
   author: "Girish Lade",
   email: "admin@ladestack.in",
@@ -32,6 +34,13 @@ const siteConfig = {
     "AI feedback",
     "Supabase",
     "Next.js",
+    "feedback collection",
+    "user feedback tool",
+    "customer feedback software",
+    "feedback platform",
+    "product management",
+    "roadmap tool",
+    "feature voting",
   ],
 }
 
@@ -52,13 +61,14 @@ export const metadata: Metadata = {
     template: `%s | ${siteConfig.name}`,
   },
   description: siteConfig.description,
+  shortDescription: siteConfig.shortDescription,
   author: {
     name: siteConfig.author,
     url: "https://ladestack.in",
   },
   creator: siteConfig.author,
   publisher: siteConfig.name,
-  generator: "v0.dev",
+  generator: "Next.js, v0.dev",
   
   applicationName: siteConfig.name,
   referrer: "origin-when-cross-origin",
@@ -125,7 +135,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: siteConfig.name,
-    description: siteConfig.description,
+    description: siteConfig.shortDescription,
     creator: siteConfig.twitter,
     images: [siteConfig.ogImage],
   },
@@ -137,7 +147,22 @@ export const metadata: Metadata = {
   verification: {
     google: "",
     yandex: "",
-   bing: "",
+    bing: "",
+  },
+  
+  category: "technology",
+  
+  other: {
+    "og:site_name": siteConfig.name,
+    "og:image:alt": `${siteConfig.name} - AI-Powered Feedback Intelligence Platform`,
+    "twitter:creator": siteConfig.twitter,
+    "twitter:image:alt": `${siteConfig.name} - AI-Powered Feedback Intelligence Platform`,
+    "apple-mobile-web-app-capable": "yes",
+    "apple-mobile-web-app-status-bar-style": "default",
+    "apple-mobile-web-app-title": siteConfig.name,
+    "mobile-web-app-capable": "yes",
+    "format-detection": "telephone=no",
+    "DC.description": siteConfig.shortDescription,
   },
 }
 

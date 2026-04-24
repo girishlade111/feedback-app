@@ -19,18 +19,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://insightflow.vercel.app/cookies</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://insightflow.vercel.app/contact</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://insightflow.vercel.app/docs</loc>
     <lastmod>2026-04-24</lastmod>
     <changefreq>weekly</changefreq>
