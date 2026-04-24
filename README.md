@@ -95,8 +95,8 @@ This repository stays in sync with your deployed chats on [v0.dev](https://v0.de
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/feedback-app.git
-   cd feedback-app
+   git clone https://github.com/your-username/InsightFlow.git
+   cd InsightFlow
    ```
 
 2. Install dependencies:
