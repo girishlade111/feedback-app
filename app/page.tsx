@@ -22,6 +22,46 @@ import {
   deleteFeedbackItem,
 } from "@/app/actions"
 
+function Logo() {
+  return (
+    <div className="flex items-center gap-2">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 40 40"
+        className="w-8 h-8"
+        fill="none"
+      >
+        <defs>
+          <linearGradient id="logoBg" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#2563eb" />
+            <stop offset="100%" style="stop-color:#7c3aed" />
+          </linearGradient>
+        </defs>
+        <rect width="40" height="40" rx="8" fill="url(#logoBg)" />
+        <path
+          d="M12 26 L20 18 L28 26"
+          stroke="white"
+          strokeWidth="3"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          fill="none"
+        />
+        <path
+          d="M12 21 L20 29 L28 21"
+          stroke="white"
+          strokeWidth="3"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          fill="none"
+          opacity="0.6"
+        />
+        <circle cx="20" cy="21" r="2" fill="white" />
+      </svg>
+      <span className="text-xl font-semibold hidden sm:inline">InsightFlow</span>
+    </div>
+  )
+}
+
 export default function FeedbackPage() {
   const [feedbackItems, setFeedbackItems] = useState<FeedbackItem[]>([])
   const [isModalOpen, setIsModalOpen] = useState(false)
@@ -274,10 +314,10 @@ export default function FeedbackPage() {
     <div className="w-full max-w-7xl mx-auto p-4 space-y-6">
       {/* Header */}
       <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-6">
-        <div>
-          <h1 className="text-3xl font-normal">InsightFlow</h1>
+        <div className="flex items-center gap-4">
+          <Logo />
         </div>
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 ml-auto">
           <ThemeToggle />
           <Button onClick={openAddModal} className="hidden sm:flex">
             <PlusCircle className="mr-2 h-4 w-4" /> Add Feedback
