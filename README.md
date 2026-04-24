@@ -237,9 +237,15 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-Girish Lade - [@girishlade111](https://twitter.com/girishlade111) - girishlade111@gmail.com
+Connect with me:
 
-Project Link: [https://github.com/girishlade111/insightflow](https://github.com/girishlade111/insightflow)
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/girish_lade_/) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/girish-lade-075bba201/) [![GitHub](https://img.shields.io/badge/GitHub-%23181717.svg?&style=for-the-badge&logo=github&logoColor=white)](https://github.com/girishlade111) [![CodePen](https://img.shields.io/badge/CodePen-%23161617.svg?&style=for-the-badge&logo=codepen&logoColor=white)](https://codepen.io/Girish-Lade-the-looper)
+
+Email: [admin@ladestack.in](mailto:admin@ladestack.in)
+
+Website: [ladestack.in](https://ladestack.in)
+
+Project Link: [https://github.com/girishlade111/InsightFlow](https://github.com/girishlade111/InsightFlow)
 
 ---
 
