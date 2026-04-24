@@ -1,4 +1,4 @@
-# Product Feedback App
+# Feedback Hub
 
 A modern, full-featured feedback application built with Next.js, React, and Supabase. Collect, manage, and analyze user feedback efficiently.
 
@@ -29,7 +29,7 @@ A modern, full-featured feedback application built with Next.js, React, and Supa
 
 This repository stays in sync with your deployed chats on [v0.dev](https://v0.dev). Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
 
-**Live Demo:** [https://vercel.com/easyweb/v0-product-feedback-app](https://vercel.com/easyweb/v0-product-feedback-app)
+**Live Demo:** [https://vercel.com/easyweb/v0-feedback-hub](https://vercel.com/easyweb/v0-feedback-hub)
 
 ## Features
 
@@ -181,7 +181,7 @@ npm start
 ## Project Structure
 
 ```
-feedback-app/
+feedback-hub/
 ├── .github/                 # GitHub workflows and templates
 ├── .husky/                  # Git hooks
 ├── components/              # Reusable UI components
@@ -239,7 +239,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Your Name - [@your_twitter](https://twitter.com/your_twitter) - email@example.com
 
-Project Link: [https://github.com/your-username/feedback-app](https://github.com/your-username/feedback-app)
+Project Link: [https://github.com/your-username/feedback-hub](https://github.com/your-username/feedback-hub)
 
 ---
 
