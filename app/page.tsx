@@ -32,18 +32,18 @@ function Logo() {
         fill="none"
       >
         <defs>
-          <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stopColor="#0d9488" />
-            <stop offset="100%" stopColor="#14b8a6" />
+          <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stopColor="#f59e0b" />
+            <stop offset="100%" stopColor="#f97316" />
           </linearGradient>
         </defs>
-        <rect x="4" y="4" width="40" height="40" rx="10" fill="url(#grad)" />
         <path
-          d="M16 18H32M16 24H32M16 30H28"
-          stroke="#ffffff"
-          strokeWidth="2.5"
-          strokeLinecap="round"
+          d="M8 12C8 9.79 9.79 8 12 8H36C38.21 8 40 9.79 40 12V28C40 30.21 38.21 32 36 32H28L18 42V32H12C9.79 32 8 30.21 8 28V12Z"
+          fill="url(#g)"
         />
+        <circle cx="16" cy="20" r="2" fill="#ffffff" />
+        <circle cx="24" cy="20" r="2" fill="#ffffff" />
+        <circle cx="32" cy="20" r="2" fill="#ffffff" />
       </svg>
       <span className="text-xl font-bold hidden sm:inline tracking-tight">InsightFlow</span>
     </div>
