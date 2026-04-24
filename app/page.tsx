@@ -33,8 +33,8 @@ function Logo() {
       >
         <defs>
           <linearGradient id="logoBg" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" style="stop-color:#2563eb" />
-            <stop offset="100%" style="stop-color:#7c3aed" />
+            <stop offset="0%" stopColor="#2563eb" />
+            <stop offset="100%" stopColor="#7c3aed" />
           </linearGradient>
         </defs>
         <rect width="40" height="40" rx="8" fill="url(#logoBg)" />
@@ -479,7 +479,7 @@ export default function FeedbackPage() {
         className="md:hidden fixed bottom-6 right-6 h-14 w-14 rounded-full bg-white shadow-lg hover:shadow-xl transition-shadow z-50 border-0 p-0"
         size="icon"
       >
-        <Plus className="h-6 w-6 text-gray-700" style={{ width: "24px", height: "24px" }} />
+        <Plus className="h-6 w-6 text-gray-700" style={{ width: 24, height: 24 }} />
       </Button>
     </div>
   )
